@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Óptica RH</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Óptica RH</h1>
+        <div class="carrito-icono" id="abrirCarrito">
+            🛒 <span id="contadorCarrito">0</span>
+        </div>
+    </header>
+    <main>
+        <section id="catalogo">
+            <h2>Catálogo de Productos</h2>
+            <div id="productos" class="productos-container"></div>
+        </section>
+    </main>
+    <div id="popupCarrito" class="popup-carrito oculto">
+        <h2>Tu Carrito</h2>
+        <ul id="listaCarrito"></ul>
+        <p id="total">Total: $0</p>
+        <button id="vaciarCarrito">Vaciar Carrito</button>
+        <button id="cerrarCarrito">Cerrar</button>
+        <button id="comprar">Comprar</button>
+        <p id="mensajeCompra" class="oculto">¡Muchas gracias por tu compra!</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
